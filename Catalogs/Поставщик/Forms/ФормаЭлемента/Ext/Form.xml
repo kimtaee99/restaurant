@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Pages name="Страницы" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="8"/>
+			<ChildItems>
+				<Page name="ГруппаДанныеПоставщика" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные поставщика</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаДанныеПоставщикаРасширеннаяПодсказка" id="10"/>
+					<ChildItems>
+						<Table name="ДанныеПоставщика" id="11">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ДанныеПоставщика</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДанныеПоставщикаКонтекстноеМеню" id="12"/>
+							<AutoCommandBar name="ДанныеПоставщикаКоманднаяПанель" id="13"/>
+							<ExtendedTooltip name="ДанныеПоставщикаРасширеннаяПодсказка" id="14"/>
+							<SearchStringAddition name="ДанныеПоставщикаСтрокаПоиска" id="15">
+								<AdditionSource>
+									<Item>ДанныеПоставщика</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДанныеПоставщикаСтрокаПоискаКонтекстноеМеню" id="16"/>
+								<ExtendedTooltip name="ДанныеПоставщикаСтрокаПоискаРасширеннаяПодсказка" id="17"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДанныеПоставщикаСостояниеПросмотра" id="18">
+								<AdditionSource>
+									<Item>ДанныеПоставщика</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДанныеПоставщикаСостояниеПросмотраКонтекстноеМеню" id="19"/>
+								<ExtendedTooltip name="ДанныеПоставщикаСостояниеПросмотраРасширеннаяПодсказка" id="20"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДанныеПоставщикаУправлениеПоиском" id="21">
+								<AdditionSource>
+									<Item>ДанныеПоставщика</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДанныеПоставщикаУправлениеПоискомКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="ДанныеПоставщикаУправлениеПоискомРасширеннаяПодсказка" id="23"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ДанныеПоставщикаНомерСтроки" id="24">
+									<DataPath>Объект.ДанныеПоставщика.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДанныеПоставщикаНомерСтрокиКонтекстноеМеню" id="25"/>
+									<ExtendedTooltip name="ДанныеПоставщикаНомерСтрокиРасширеннаяПодсказка" id="26"/>
+								</LabelField>
+								<InputField name="ДанныеПоставщикаПодразделение" id="27">
+									<DataPath>Объект.ДанныеПоставщика.Подразделение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДанныеПоставщикаПодразделениеКонтекстноеМеню" id="28"/>
+									<ExtendedTooltip name="ДанныеПоставщикаПодразделениеРасширеннаяПодсказка" id="29"/>
+								</InputField>
+								<InputField name="ДанныеПоставщикаАдрес" id="30">
+									<DataPath>Объект.ДанныеПоставщика.Адрес</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДанныеПоставщикаАдресКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="ДанныеПоставщикаАдресРасширеннаяПодсказка" id="32"/>
+								</InputField>
+								<InputField name="ДанныеПоставщикаПредставитель" id="33">
+									<DataPath>Объект.ДанныеПоставщика.Представитель</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДанныеПоставщикаПредставительКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="ДанныеПоставщикаПредставительРасширеннаяПодсказка" id="35"/>
+								</InputField>
+								<InputField name="ДанныеПоставщикаТелефон" id="36">
+									<DataPath>Объект.ДанныеПоставщика.Телефон</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДанныеПоставщикаТелефонКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="ДанныеПоставщикаТелефонРасширеннаяПодсказка" id="38"/>
+								</InputField>
+								<InputField name="ДанныеПоставщикаЭлектроннаяПочта" id="39">
+									<DataPath>Объект.ДанныеПоставщика.ЭлектроннаяПочта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДанныеПоставщикаЭлектроннаяПочтаКонтекстноеМеню" id="40"/>
+									<ExtendedTooltip name="ДанныеПоставщикаЭлектроннаяПочтаРасширеннаяПодсказка" id="41"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаУсловияПоставки" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Условия поставки</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаУсловияПоставкиРасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<Table name="УсловияПоставки" id="44">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.УсловияПоставки</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="УсловияПоставкиКонтекстноеМеню" id="45"/>
+							<AutoCommandBar name="УсловияПоставкиКоманднаяПанель" id="46"/>
+							<ExtendedTooltip name="УсловияПоставкиРасширеннаяПодсказка" id="47"/>
+							<SearchStringAddition name="УсловияПоставкиСтрокаПоиска" id="48">
+								<AdditionSource>
+									<Item>УсловияПоставки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УсловияПоставкиСтрокаПоискаКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="УсловияПоставкиСтрокаПоискаРасширеннаяПодсказка" id="50"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="УсловияПоставкиСостояниеПросмотра" id="51">
+								<AdditionSource>
+									<Item>УсловияПоставки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УсловияПоставкиСостояниеПросмотраКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="УсловияПоставкиСостояниеПросмотраРасширеннаяПодсказка" id="53"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="УсловияПоставкиУправлениеПоиском" id="54">
+								<AdditionSource>
+									<Item>УсловияПоставки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="УсловияПоставкиУправлениеПоискомКонтекстноеМеню" id="55"/>
+								<ExtendedTooltip name="УсловияПоставкиУправлениеПоискомРасширеннаяПодсказка" id="56"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="УсловияПоставкиНомерСтроки" id="57">
+									<DataPath>Объект.УсловияПоставки.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УсловияПоставкиНомерСтрокиКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="УсловияПоставкиНомерСтрокиРасширеннаяПодсказка" id="59"/>
+								</LabelField>
+								<InputField name="УсловияПоставкиУсловие" id="60">
+									<DataPath>Объект.УсловияПоставки.Условие</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УсловияПоставкиУсловиеКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="УсловияПоставкиУсловиеРасширеннаяПодсказка" id="62"/>
+								</InputField>
+								<InputField name="УсловияПоставкиОписание" id="63">
+									<DataPath>Объект.УсловияПоставки.Описание</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УсловияПоставкиОписаниеКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="УсловияПоставкиОписаниеРасширеннаяПодсказка" id="65"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Поставщик</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
