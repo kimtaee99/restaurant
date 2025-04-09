@@ -267,6 +267,8 @@
 			<Enum>СтатусЗаказа</Enum>
 			<Enum>ГруппаРасхождения</Enum>
 			<Report>ОстаткиТоваров</Report>
+			<Report>Поставки</Report>
+			<Report>РасхожденияТоваров</Report>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>

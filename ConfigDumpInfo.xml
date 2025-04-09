@@ -42,7 +42,7 @@
 		<Metadata name="CommonPicture.Поставки.Picture" id="819b144a-12bd-442b-9af5-5ddd2106307b.0" configVersion="dbc6628c00baf64baff8cccf90966ea200000000"/>
 		<Metadata name="CommonPicture.Склад" id="50add1c0-e31b-469d-98b6-3b83f1e4d80b" configVersion="9fef353182ff2b49b6531298ea61a6bd00000000"/>
 		<Metadata name="CommonPicture.Склад.Picture" id="50add1c0-e31b-469d-98b6-3b83f1e4d80b.0" configVersion="dead9d34b6ebb54982489b4572f4926500000000"/>
-		<Metadata name="Configuration.Конфигурация" id="b73dae71-8219-400d-9961-438b9f86ee51" configVersion="34e6ae8db8e0114b913f828402441d9c00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="b73dae71-8219-400d-9961-438b9f86ee51" configVersion="a25b390bfca2c64b8e300fbf7fc6e6e900000000"/>
 		<Metadata name="Document.АктРасхождений" id="9a113464-2ad8-4146-a7b2-eaeb9a4dfb13" configVersion="ddf30734d60e5b4192e7443151cdecef00000000">
 			<Metadata name="Document.АктРасхождений.TabularSection.Товары.Attribute.Описание" id="03445e29-ea95-4d4d-a299-f9e63a281884"/>
 			<Metadata name="Document.АктРасхождений.Command.Печать" id="0baa8d53-44ae-4d2a-9147-0cda879d1883"/>
@@ -130,17 +130,27 @@
 		<Metadata name="Report.ОстаткиТоваров.Template.Макет.Template" id="07179c2a-8cee-4ef0-918f-59f4ae613ab3.0" configVersion="2ffb6c7a8d5df74faf51dcb31b9b623d00000000"/>
 		<Metadata name="Report.ОстаткиТоваров.Template.ОсновнаяСхемаКомпоновкиДанных" id="0a431ecf-7b37-4f7d-958d-69b48469b7f9" configVersion="66592ba6b55ec444a3f90dbde05b70a500000000"/>
 		<Metadata name="Report.ОстаткиТоваров.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="0a431ecf-7b37-4f7d-958d-69b48469b7f9.0" configVersion="02ecf417aab3ce4e93f5087759e5d63d00000000"/>
+		<Metadata name="Report.Поставки" id="12e236db-171d-4f1f-8ca2-27861989b0b4" configVersion="379876eddc5e06478fc159f488c031f700000000"/>
+		<Metadata name="Report.Поставки.Form.ФормаОтчета" id="8eb29c7d-37fc-49aa-ad83-3bd050ab3163" configVersion="6794e7e4424981438616354d399d4a0100000000"/>
+		<Metadata name="Report.Поставки.Form.ФормаОтчета.Form" id="8eb29c7d-37fc-49aa-ad83-3bd050ab3163.0" configVersion="634c063784e52b419f20a1ba9bf0bae400000000"/>
+		<Metadata name="Report.Поставки.Template.ОсновнаяСхемаКомпоновкиДанных" id="6530b193-5f7e-4d8a-92b9-3c9817e875d5" configVersion="525a82bc75436e4eb2e850ab8ceb95b300000000"/>
+		<Metadata name="Report.Поставки.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="6530b193-5f7e-4d8a-92b9-3c9817e875d5.0" configVersion="73a6cb244e13c7428940fdbb25bdf57100000000"/>
+		<Metadata name="Report.РасхожденияТоваров" id="7cb0e6ef-f6b6-4665-9751-c9ddc994bb46" configVersion="12c22662ea262848af85c52c92ac7a9200000000"/>
+		<Metadata name="Report.РасхожденияТоваров.Form.ФормаОтчета" id="dc113d72-2b79-4b46-bd55-e97d4456d213" configVersion="c037b614e3578b40b0d126676f26041400000000"/>
+		<Metadata name="Report.РасхожденияТоваров.Form.ФормаОтчета.Form" id="dc113d72-2b79-4b46-bd55-e97d4456d213.0" configVersion="e2d5d1d063274b4d895ef4379acd245600000000"/>
+		<Metadata name="Report.РасхожденияТоваров.Template.ОсновнаяСхемаКомпоновкиДанных" id="a3255a97-7a74-475d-806d-40ba725c2ab3" configVersion="ba8a47740117a0418a9850d811fd51e500000000"/>
+		<Metadata name="Report.РасхожденияТоваров.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a3255a97-7a74-475d-806d-40ba725c2ab3.0" configVersion="1123dbf110d5e043af17bcef5d78e70f00000000"/>
 		<Metadata name="Role.Администратор" id="dc6d4791-290a-419a-9566-c9090427fed0" configVersion="125f7a0521111c4b928adacc6ceb7c4600000000"/>
 		<Metadata name="Role.Администратор.Rights" id="dc6d4791-290a-419a-9566-c9090427fed0.0" configVersion="35fe49f088408847b0f317be2d4d1dac00000000"/>
-		<Metadata name="Role.Бухгалтер" id="9461d783-8cb6-4d29-b3d4-fff29f75c5bc" configVersion="46376e335ad23c46900594df793694fc00000000"/>
-		<Metadata name="Role.Бухгалтер.Rights" id="9461d783-8cb6-4d29-b3d4-fff29f75c5bc.0" configVersion="c6ad3479209685418143da71f331cba800000000"/>
-		<Metadata name="Role.Товаровед" id="75f967bc-7a42-481f-8889-594af0bdd332" configVersion="1a1534aef757e54db253e042c77e253100000000"/>
-		<Metadata name="Role.Товаровед.Rights" id="75f967bc-7a42-481f-8889-594af0bdd332.0" configVersion="baa2bc8e829c74438278c7dcda61a5d100000000"/>
+		<Metadata name="Role.Бухгалтер" id="9461d783-8cb6-4d29-b3d4-fff29f75c5bc" configVersion="39dacf063be1274c83826ecf1776cd6600000000"/>
+		<Metadata name="Role.Бухгалтер.Rights" id="9461d783-8cb6-4d29-b3d4-fff29f75c5bc.0" configVersion="fee5a3025e2d1b4e94395a94a59bf93c00000000"/>
+		<Metadata name="Role.Товаровед" id="75f967bc-7a42-481f-8889-594af0bdd332" configVersion="1472badf13110b42931b7f23e404e84200000000"/>
+		<Metadata name="Role.Товаровед.Rights" id="75f967bc-7a42-481f-8889-594af0bdd332.0" configVersion="7388144f41d925469511dbc8269e144d00000000"/>
 		<Metadata name="Subsystem.Бухгалтерия" id="708b602e-7b71-4000-bbf8-3f174238e1f9" configVersion="224c86207753b6408037bb3de3428af000000000"/>
 		<Metadata name="Subsystem.Бухгалтерия.CommandInterface" id="708b602e-7b71-4000-bbf8-3f174238e1f9.1" configVersion="34c1a1e2e9328d45b7540bac89440a9900000000"/>
-		<Metadata name="Subsystem.Поставки" id="c823cfeb-2d1c-4b3e-b029-bc7c2015b04d" configVersion="a2e033e5c29ad048a59a0f8d079105b100000000"/>
+		<Metadata name="Subsystem.Поставки" id="c823cfeb-2d1c-4b3e-b029-bc7c2015b04d" configVersion="781c7beeae56a649be8163e9127d0c8400000000"/>
 		<Metadata name="Subsystem.Поставки.CommandInterface" id="c823cfeb-2d1c-4b3e-b029-bc7c2015b04d.1" configVersion="3838f84b85cfbf44bd83f81de5385ae300000000"/>
-		<Metadata name="Subsystem.Склад" id="7e89b3c7-6c23-415d-af5b-13a7069055f0" configVersion="3e925a5d2ceefb44933ea69c3328ec6000000000"/>
+		<Metadata name="Subsystem.Склад" id="7e89b3c7-6c23-415d-af5b-13a7069055f0" configVersion="501478d8aaa0b548bb82e9d93aa11bc400000000"/>
 		<Metadata name="Subsystem.Склад.CommandInterface" id="7e89b3c7-6c23-415d-af5b-13a7069055f0.1" configVersion="c96548c86b0ce14d9e9b7c5765f0ddcb00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

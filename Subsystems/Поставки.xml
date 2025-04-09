@@ -24,6 +24,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.АктРасхождений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Поставщик</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Поставки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РасхожденияТоваров</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
