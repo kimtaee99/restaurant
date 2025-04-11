@@ -142,10 +142,10 @@
 		<Metadata name="Report.РасхожденияТоваров.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a3255a97-7a74-475d-806d-40ba725c2ab3.0" configVersion="1123dbf110d5e043af17bcef5d78e70f00000000"/>
 		<Metadata name="Role.Администратор" id="dc6d4791-290a-419a-9566-c9090427fed0" configVersion="125f7a0521111c4b928adacc6ceb7c4600000000"/>
 		<Metadata name="Role.Администратор.Rights" id="dc6d4791-290a-419a-9566-c9090427fed0.0" configVersion="35fe49f088408847b0f317be2d4d1dac00000000"/>
-		<Metadata name="Role.Бухгалтер" id="9461d783-8cb6-4d29-b3d4-fff29f75c5bc" configVersion="39dacf063be1274c83826ecf1776cd6600000000"/>
-		<Metadata name="Role.Бухгалтер.Rights" id="9461d783-8cb6-4d29-b3d4-fff29f75c5bc.0" configVersion="fee5a3025e2d1b4e94395a94a59bf93c00000000"/>
-		<Metadata name="Role.Товаровед" id="75f967bc-7a42-481f-8889-594af0bdd332" configVersion="1472badf13110b42931b7f23e404e84200000000"/>
-		<Metadata name="Role.Товаровед.Rights" id="75f967bc-7a42-481f-8889-594af0bdd332.0" configVersion="7388144f41d925469511dbc8269e144d00000000"/>
+		<Metadata name="Role.Бухгалтер" id="9461d783-8cb6-4d29-b3d4-fff29f75c5bc" configVersion="1a983414be512740a241fbc93758cfa100000000"/>
+		<Metadata name="Role.Бухгалтер.Rights" id="9461d783-8cb6-4d29-b3d4-fff29f75c5bc.0" configVersion="40484bb4afad724981892f2552a4eecb00000000"/>
+		<Metadata name="Role.Товаровед" id="75f967bc-7a42-481f-8889-594af0bdd332" configVersion="66c83e21ef07cf45975ae4cc7b7fd51000000000"/>
+		<Metadata name="Role.Товаровед.Rights" id="75f967bc-7a42-481f-8889-594af0bdd332.0" configVersion="11c320b323bfae40bb97b482606b586400000000"/>
 		<Metadata name="Subsystem.Бухгалтерия" id="708b602e-7b71-4000-bbf8-3f174238e1f9" configVersion="224c86207753b6408037bb3de3428af000000000"/>
 		<Metadata name="Subsystem.Бухгалтерия.CommandInterface" id="708b602e-7b71-4000-bbf8-3f174238e1f9.1" configVersion="34c1a1e2e9328d45b7540bac89440a9900000000"/>
 		<Metadata name="Subsystem.Поставки" id="c823cfeb-2d1c-4b3e-b029-bc7c2015b04d" configVersion="781c7beeae56a649be8163e9127d0c8400000000"/>

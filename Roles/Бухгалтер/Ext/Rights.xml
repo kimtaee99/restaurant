@@ -307,6 +307,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.РасхожденияТоваров</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.Склад</name>
 		<right>
 			<name>View</name>
